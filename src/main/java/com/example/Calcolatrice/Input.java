@@ -39,8 +39,8 @@ public class Input{
     public static int readInt(){
         String inputString = readLine();
         inputString = inputString.trim();
-        int n = Integer.parseInt(inputString);
-        return n;
+        return Integer.parseInt(inputString);
+        
     }
 
     /**
