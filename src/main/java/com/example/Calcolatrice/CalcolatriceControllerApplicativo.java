@@ -36,7 +36,7 @@ public class CalcolatriceControllerApplicativo {
 
             num1=Integer.parseInt(operandi[0]);
             num2=Integer.parseInt(operandi[1]);
-            result=(int)(num1/num2);
+            result=(num1/num2);
             strResult=String.valueOf(result);
 
         }
